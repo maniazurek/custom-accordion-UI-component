@@ -1,7 +1,8 @@
 import React from "react";
+import AccordionUI from "./components/AccordionUI";
+import accordionData from "./dummydata/accordionData";
 
 const App = () => {
-  return <div>Hello</div>;
+  return <AccordionUI accordionData={accordionData} />;
 };
-
 export default App;
